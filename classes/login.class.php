@@ -32,7 +32,7 @@ class Login extends Dbh
         // Verify the hashed password
         if (password_verify($pwd, $user['pwd'])) {
             // Correct password, proceed with login
-            session_start(); // Start the session
+            session_start();
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
             
