@@ -5,7 +5,7 @@ class Dbh
     {
         $dbhost = 'localhost';
         $dbuser = 'root';
-        $dbpassword = ''; // Empty for default installations
+        $dbpassword = ''; 
         $dbname = 'login-system';
 
         $conn = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
