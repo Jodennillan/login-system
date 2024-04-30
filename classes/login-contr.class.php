@@ -26,7 +26,7 @@ class LoginControl extends Login
             exit();
         }
 
-        // Successful login, redirect to dashboard or desired page
+        // Successful login
         header("Location: ../WEBSITE/index.html");
         exit();
     }
